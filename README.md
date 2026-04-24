@@ -1,4 +1,4 @@
-Commodore 15/Plus4 ROM dumper
+Commodore 16/Plus4 ROM dumper
 =============================
 Copyright 2026 Peter Krefting.
 A Softwolves Software Release in 2026
