@@ -1,7 +1,7 @@
-all: save-rom.prg
+all: save-rom-plus4.prg
 
-save-rom.prg: save-rom.asm
-	cl65 --target plus4 -o save-rom.prg -l save-rom.lst save-rom.asm
+save-rom-plus4.prg: save-rom-plus4.asm
+	cl65 --target plus4 -o save-rom-plus4.prg -l save-rom-plus4.lst save-rom-plus4.asm
 
 clean:
-	-rm save-rom.prg save-rom.lst
+	-rm save-rom-plus4.prg save-rom-plus4.lst
